@@ -5,7 +5,7 @@ public class PlayerInputHandler : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
-    public Animator animator;   
+    public Animator animator;
     public Vector2 moveInput;
     public PlayerInput playerInput;
     public Transform playerTransform;
@@ -32,9 +32,9 @@ public class PlayerInputHandler : MonoBehaviour
         animator.SetFloat("magnitude", Mathf.Abs(rb.linearVelocity.x));
 
         if (horizontalMovement > 0.01f)
-            spriteRenderer.flipX = false;  
+            spriteRenderer.flipX = false;
         else if (horizontalMovement < -0.01f)
-            spriteRenderer.flipX = true;  
+            spriteRenderer.flipX = true;
     }
     public void Move(InputAction.CallbackContext context)
     {

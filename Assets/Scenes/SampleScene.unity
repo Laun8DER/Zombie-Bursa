@@ -741,6 +741,9 @@ MonoBehaviour:
   rb: {fileID: 560587604}
   playerTransform: {fileID: 560587602}
   burpForce: 30
+  burpShakeDuration: 0.18
+  burpShakeAmplitude: 0.2
+  burpShakeFrequency: 30
   lastDirection: -1
   spriteRenderer: {fileID: 560587601}
   audioSource: {fileID: 560587608}
