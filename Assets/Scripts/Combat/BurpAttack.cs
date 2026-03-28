@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
 public class BurpAttack : MonoBehaviour
 {
@@ -16,7 +15,12 @@ public class BurpAttack : MonoBehaviour
     public AudioSource audioSource;
     public bool LastDirectionBool;
     public AudioClip mySound;
+    public float burpDeceleration = 120f;
+    public float burpStopVelocityThreshold = 0.15f;
+    public float burpMaxDistance = 3.5f;
     private bool isBurpSubscribed;
+    private bool isBurping;
+    private float burpStartX;
 
     private void OnEnable()
     {
@@ -69,11 +73,12 @@ public class BurpAttack : MonoBehaviour
 
     void Update()
     {
-        if (!animator.GetBool("IsBurping"))
+        if (!isBurping)
         {
             lastDirection = spriteRenderer.flipX ? 1f : -1f;
         }
-        if(lastDirection == 1f)
+
+        if (lastDirection == 1f)
         {
             LastDirectionBool = true;
         }
@@ -82,10 +87,42 @@ public class BurpAttack : MonoBehaviour
             LastDirectionBool = false;
         }
     }
+
+    private void FixedUpdate()
+    {
+        if (!isBurping)
+        {
+            return;
+        }
+
+        float traveledDistance = Mathf.Abs(rb.position.x - burpStartX);
+        if (traveledDistance >= burpMaxDistance)
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            StopBurpState();
+            return;
+        }
+
+        float slowedVelocityX = Mathf.MoveTowards(rb.linearVelocity.x, 0f, burpDeceleration * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(slowedVelocityX, rb.linearVelocity.y);
+
+        if (Mathf.Abs(rb.linearVelocity.x) <= burpStopVelocityThreshold)
+        {
+            StopBurpState();
+        }
+    }
+
     private void DoBurp(InputAction.CallbackContext ctx)
     {
+        if (isBurping)
+        {
+            return;
+        }
+
+        burpStartX = rb.position.x;
         rb.linearVelocity = new Vector2(lastDirection * burpForce, rb.linearVelocity.y);
 
+        isBurping = true;
         animator.SetBool("IsBurping", true);
         ScreenShake.Instance.Shake(burpShakeDuration, burpShakeAmplitude, burpShakeFrequency);
 
@@ -101,16 +138,14 @@ public class BurpAttack : MonoBehaviour
             animator.SetBool("FacingLeft", false);
             animator.SetBool("FacingRight", true);
         }
-
-            StartCoroutine(StopBurp());
     }
-    private IEnumerator StopBurp()
-    {
-        yield return new WaitForSeconds(0.30f);
 
+    private void StopBurpState()
+    {
+        isBurping = false;
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         animator.SetBool("IsBurping", false);
         animator.SetBool("FacingLeft", false);
         animator.SetBool("FacingRight", false);
-
     }
 }
