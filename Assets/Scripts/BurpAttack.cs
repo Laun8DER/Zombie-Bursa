@@ -43,7 +43,7 @@ public class BurpAttack : MonoBehaviour
     }
     private void DoBurp(InputAction.CallbackContext ctx)
     {
-        rb.AddForce(new Vector2(lastDirection * burpForce, 0f), ForceMode2D.Impulse);
+        rb.linearVelocity = new Vector2(lastDirection * burpForce, rb.linearVelocity.y);
 
         animator.SetBool("IsBurping", true);
 
@@ -64,7 +64,7 @@ public class BurpAttack : MonoBehaviour
     }
     private IEnumerator StopBurp()
     {
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.30f);
 
         animator.SetBool("IsBurping", false);
         animator.SetBool("FacingLeft", false);
