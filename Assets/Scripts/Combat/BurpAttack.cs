@@ -18,9 +18,15 @@ public class BurpAttack : MonoBehaviour
     public float burpDeceleration = 120f;
     public float burpStopVelocityThreshold = 0.15f;
     public float burpMaxDistance = 3.5f;
+    public int burpDamage = 1;
+    public float attackRange = 2.0f;
+    public float rayOffsetY = 1.0f;
+    public LayerMask enemyLayer;
+
     private bool isBurpSubscribed;
     private bool isBurping;
     private float burpStartX;
+    private System.Collections.Generic.List<GameObject> hitEnemies = new System.Collections.Generic.List<GameObject>();
 
     private void OnEnable()
     {
@@ -95,6 +101,32 @@ public class BurpAttack : MonoBehaviour
             return;
         }
 
+        // Raycast logic: Invert direction for the ray to match visual facing
+        Vector2 direction = new Vector2(lastDirection * -1f, 0);
+        Vector3 rayOrigin = transform.position + new Vector3(0, rayOffsetY, 0);
+
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, direction, attackRange, enemyLayer);
+
+        // Debug line visible in Scene view
+        Debug.DrawRay(rayOrigin, direction * attackRange, Color.red);
+
+        if (hit.collider != null)
+        {
+            Debug.Log($"Ray hit: {hit.collider.name}");
+            if (hit.collider.CompareTag("enemy"))
+            {
+                if (!hitEnemies.Contains(hit.collider.gameObject))
+                {
+                    Health targetHealth = hit.collider.GetComponent<Health>();
+                    if (targetHealth != null)
+                    {
+                        targetHealth.TakeDamage(burpDamage);
+                        hitEnemies.Add(hit.collider.gameObject);
+                    }
+                }
+            }
+        }
+
         float traveledDistance = Mathf.Abs(rb.position.x - burpStartX);
         if (traveledDistance >= burpMaxDistance)
         {
@@ -119,6 +151,7 @@ public class BurpAttack : MonoBehaviour
             return;
         }
 
+        hitEnemies.Clear();
         burpStartX = rb.position.x;
         rb.linearVelocity = new Vector2(lastDirection * burpForce, rb.linearVelocity.y);
 
