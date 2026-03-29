@@ -5,6 +5,7 @@ public class Health : MonoBehaviour
     [Header("Settings")]
     public int maxHealth = 3;
     private int currentHealth;
+    public Animator animator;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
@@ -38,7 +39,10 @@ public class Health : MonoBehaviour
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
-
+        animator.SetBool("IsDead", true);
+    }
+    public void DestroySelf()
+    {
         Destroy(gameObject);
     }
 

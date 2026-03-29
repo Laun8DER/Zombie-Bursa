@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: e8af884b3824965458c48d9fc25b93c8
+guid: dd4cda7429658f147a41b1dac5c7100d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4616290972191166942
-    second: Koridor_0
+      213: 1583938015301902177
+    second: Ardakun_burp_right_0
+  - first:
+      213: 7642635988420257218
+    second: Ardakun_burp_right_1
+  - first:
+      213: 2627870639912990366
+    second: Ardakun_burp_right_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Koridor_0
+      name: Ardakun_burp_right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1080
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 244
+        height: 64
+      alignment: 9
+      pivot: {x: 0.13714203, y: -0.00092999235}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed11c495e2c501040800000000000000
-      internalID: 4616290972191166942
+      spriteID: 16f9e4c9b374bf510800000000000000
+      internalID: 1583938015301902177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ardakun_burp_right_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 244
+        height: 64
+      alignment: 9
+      pivot: {x: 0.13515235, y: 0.0005752903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e76560f8101a60800000000000000
+      internalID: 7642635988420257218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ardakun_burp_right_2
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 244
+        height: 64
+      alignment: 9
+      pivot: {x: 0.12878492, y: -0.0006649563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9631b78c62187420800000000000000
+      internalID: 2627870639912990366
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 89652c598111d7c4b8d9d27d694a14f3
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +196,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":244.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Koridor_0: 4616290972191166942
+      Ardakun_burp_right_0: 1583938015301902177
+      Ardakun_burp_right_1: 7642635988420257218
+      Ardakun_burp_right_2: 2627870639912990366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
