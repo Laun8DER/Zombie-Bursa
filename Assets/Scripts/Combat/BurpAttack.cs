@@ -159,8 +159,8 @@ public class BurpAttack : MonoBehaviour
         animator.SetBool("IsBurping", true);
         ScreenShake.Instance.Shake(burpShakeDuration, burpShakeAmplitude, burpShakeFrequency);
         // vibration gamepad
-        Gamepad.current.SetMotorSpeeds(1f, 1f);
-        
+        Gamepad.current?.SetMotorSpeeds(1f, 1f);
+
         audioSource.Play();
 
         if (LastDirectionBool)
@@ -177,7 +177,7 @@ public class BurpAttack : MonoBehaviour
 
     private void StopBurpState()
     {
-        Gamepad.current.SetMotorSpeeds(0f, 0f);
+        Gamepad.current?.SetMotorSpeeds(0f, 0f);
         isBurping = false;
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         animator.SetBool("IsBurping", false);
