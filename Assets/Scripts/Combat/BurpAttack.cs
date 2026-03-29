@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class BurpAttack : MonoBehaviour
 {
@@ -22,6 +23,13 @@ public class BurpAttack : MonoBehaviour
     public float attackRange = 2.0f;
     public float rayOffsetY = 1.0f;
     public LayerMask enemyLayer;
+
+    [Header("Stamina")]
+    public Image staminaBarImage;
+    public float maxStamina = 100f;
+    public float currentStamina = 100f;
+    public float burpStaminaCost = 10f;
+    public float staminaRecoveryRate = 5f;
 
     private bool isBurpSubscribed;
     private bool isBurping;
@@ -79,6 +87,19 @@ public class BurpAttack : MonoBehaviour
 
     void Update()
     {
+        // Пассивное восстановление стамины
+        if (currentStamina < maxStamina)
+        {
+            currentStamina += staminaRecoveryRate * Time.deltaTime;
+            currentStamina = Mathf.Min(currentStamina, maxStamina);
+        }
+
+        // Обновляем шкалу (Fill Amount принимает значение от 0 до 1)
+        if (staminaBarImage != null)
+        {
+            staminaBarImage.fillAmount = currentStamina / maxStamina;
+        }
+
         if (!isBurping)
         {
             lastDirection = spriteRenderer.flipX ? 1f : -1f;
@@ -146,11 +167,12 @@ public class BurpAttack : MonoBehaviour
 
     private void DoBurp(InputAction.CallbackContext ctx)
     {
-        if (isBurping)
+        if (isBurping || currentStamina < burpStaminaCost)
         {
             return;
         }
 
+        currentStamina -= burpStaminaCost;
         hitEnemies.Clear();
         burpStartX = rb.position.x;
         rb.linearVelocity = new Vector2(lastDirection * burpForce, rb.linearVelocity.y);
