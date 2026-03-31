@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 3;
     private int currentHealth;
     public Animator animator;
+    private bool isDead = false;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
@@ -21,9 +22,10 @@ public class Health : MonoBehaviour
     /// <param name="damage">Количество урона.</param>
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
         currentHealth -= damage;
 
-        Debug.Log($"{gameObject.name} получил {damage} урона. Текущее ХП: {currentHealth}");
+        //Debug.Log($"{gameObject.name} получил {damage} урона. Текущее ХП: {currentHealth}");
 
         if (currentHealth <= 0)
         {
@@ -33,13 +35,16 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
+        if (isDead) return;
+
+        isDead = true;
         Debug.Log($"{gameObject.name} погиб!");
 
         if (deathEffect != null)
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
-        animator.SetBool("IsDead", true);
+        animator.SetTrigger("IsDead");
     }
     public void DestroySelf()
     {

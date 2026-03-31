@@ -11,7 +11,7 @@ public class PlayerInputHandler : MonoBehaviour
     public Transform playerTransform;
     private Vector2 movement;
     public SpriteRenderer spriteRenderer;
-    private float jumpForce = 7f;
+    private float jumpForce = 8f;
     private bool isGrounded;
     float horizontalMovement;
     public Vector2 groundOffset = new Vector2(0, -1f);
