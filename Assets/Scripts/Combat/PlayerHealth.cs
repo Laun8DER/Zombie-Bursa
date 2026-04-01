@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     private bool isDead;
 
     public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
     public bool IsDead => isDead;
 
     private void Awake()
@@ -26,12 +27,12 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
 
-        Debug.Log($"{gameObject.name} получил {damage} урона. Текущее ХП: {currentHealth}");
+        Debug.Log($"[PlayerHealth] {gameObject.name}: получил {damage} урона. ХП: {currentHealth}/{maxHealth}");
 
         if (currentHealth <= 0)
         {
             isDead = true;
-            Debug.Log($"{gameObject.name} погиб!");
+            Debug.Log($"[PlayerHealth] {gameObject.name}: погиб.");
         }
     }
 }

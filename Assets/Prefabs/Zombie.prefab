@@ -198,15 +198,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
   rb: {fileID: 5055229349652895176}
   spriteRenderer: {fileID: 7327540357709500427}
+  animator: {fileID: 1145739644033316547}
   health: {fileID: 2789020398165665570}
   moveSpeed: 3
   detectionRadius: 8
-  stopDistance: 1.2
   retargetInterval: 0.15
   attackRadius: 1.5
   attackCooldown: 1
+  attackAnimationDuration: 0.35
   attackDamage: 1
   enableDebugLogs: 1
+  invertFacing: 0
   playerTag: Player
   targetLayers:
     serializedVersion: 2

@@ -6,21 +6,25 @@ public class ZombieChase : MonoBehaviour
     public Rigidbody2D rb;
     public Collider2D bodyCollider;
     public SpriteRenderer spriteRenderer;
+    public Animator animator;
     public Health health;
 
     [Header("Movement")]
     public float moveSpeed = 3f;
     public float detectionRadius = 8f;
-    public float stopDistance = 1.2f;
     public float retargetInterval = 0.15f;
 
     [Header("Attack")]
     public float attackRadius = 1.5f;
     public float attackCooldown = 1f;
+    public float attackAnimationDuration = 0.35f;
     public int attackDamage = 1;
 
     [Header("Debug")]
     public bool enableDebugLogs = true;
+
+    [Header("Visual")]
+    public bool invertFacing = false;
 
     [Header("Targeting")]
     public string playerTag = "Player";
@@ -31,7 +35,13 @@ public class ZombieChase : MonoBehaviour
     private PlayerHealth currentTargetHealth;
     private float retargetTimer;
     private float attackTimer;
+    private float attackAnimationTimer;
     private bool wasInAttackRange;
+    private string currentAnimationState;
+
+    private const string IdleStateName = "Zombie_Idle";
+    private const string WalkStateName = "Zombie_Walk";
+    private const string BiteStateName = "Zombie_Bite";
 
     private void Awake()
     {
@@ -50,6 +60,11 @@ public class ZombieChase : MonoBehaviour
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+
         if (health == null)
         {
             health = GetComponent<Health>();
@@ -60,6 +75,7 @@ public class ZombieChase : MonoBehaviour
     {
         if (health != null && health.IsDead)
         {
+            currentAnimationState = null;
             StopHorizontalMovement();
             return;
         }
@@ -77,6 +93,7 @@ public class ZombieChase : MonoBehaviour
         if (currentTarget == null)
         {
             wasInAttackRange = false;
+            PlayAnimationState(IdleStateName);
             StopHorizontalMovement();
             return;
         }
@@ -85,18 +102,24 @@ public class ZombieChase : MonoBehaviour
         {
             LogDebug("Цель стала неактивной.");
             ClearTarget();
+            PlayAnimationState(IdleStateName);
             StopHorizontalMovement();
             return;
         }
 
         attackTimer -= Time.fixedDeltaTime;
+        attackAnimationTimer -= Time.fixedDeltaTime;
 
         float distanceToTarget = GetDistanceToTarget();
         float horizontalDistance = currentTarget.position.x - transform.position.x;
 
-        if (spriteRenderer != null && Mathf.Abs(horizontalDistance) > 0.01f)
+        UpdateFacing(horizontalDistance);
+
+        if (attackAnimationTimer > 0f)
         {
-            spriteRenderer.flipX = horizontalDistance < 0f;
+            StopHorizontalMovement();
+            PlayAnimationState(BiteStateName);
+            return;
         }
 
         if (distanceToTarget <= attackRadius)
@@ -108,7 +131,8 @@ public class ZombieChase : MonoBehaviour
             }
 
             StopHorizontalMovement();
-            TryAttack();
+            PlayAnimationState(IdleStateName);
+            TryDealDamage();
             return;
         }
 
@@ -118,14 +142,9 @@ public class ZombieChase : MonoBehaviour
             wasInAttackRange = false;
         }
 
-        if (Mathf.Abs(horizontalDistance) <= stopDistance)
-        {
-            StopHorizontalMovement();
-            return;
-        }
-
         float direction = Mathf.Sign(horizontalDistance);
         rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
+        PlayAnimationState(WalkStateName);
     }
 
     private void RefreshTarget()
@@ -162,7 +181,7 @@ public class ZombieChase : MonoBehaviour
         }
     }
 
-    private void TryAttack()
+    private void TryDealDamage()
     {
         if (attackTimer > 0f)
         {
@@ -186,7 +205,9 @@ public class ZombieChase : MonoBehaviour
         }
 
         currentTargetHealth.TakeDamage(attackDamage);
-        LogDebug($"Атаковал {currentTarget.name} и нанес {attackDamage} урона. Осталось ХП: {currentTargetHealth.CurrentHealth}.");
+        attackAnimationTimer = attackAnimationDuration;
+        ForcePlayAnimationState(BiteStateName);
+        LogDebug($"Укусил {currentTarget.name} и нанес {attackDamage} урона. ХП игрока: {currentTargetHealth.CurrentHealth}/{currentTargetHealth.MaxHealth}.");
         attackTimer = attackCooldown;
     }
 
@@ -227,6 +248,44 @@ public class ZombieChase : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+    }
+
+    private void UpdateFacing(float horizontalDistance)
+    {
+        if (spriteRenderer == null || Mathf.Abs(horizontalDistance) <= 0.01f)
+        {
+            return;
+        }
+
+        bool shouldFlip = horizontalDistance > 0f;
+        if (invertFacing)
+        {
+            shouldFlip = !shouldFlip;
+        }
+
+        spriteRenderer.flipX = shouldFlip;
+    }
+
+    private void PlayAnimationState(string stateName)
+    {
+        if (animator == null || currentAnimationState == stateName)
+        {
+            return;
+        }
+
+        animator.Play(stateName, 0, 0f);
+        currentAnimationState = stateName;
+    }
+
+    private void ForcePlayAnimationState(string stateName)
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        animator.Play(stateName, 0, 0f);
+        currentAnimationState = stateName;
     }
 
     private void OnDrawGizmosSelected()
