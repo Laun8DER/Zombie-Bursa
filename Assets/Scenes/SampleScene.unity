@@ -223,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 207322862}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43.039997, y: -13.597618, z: 0}
+  m_LocalPosition: {x: -103.1, y: -13.597618, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1977,6 +1977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6154389201742286412, guid: 170ee811ae5df11429d9f519f17394a3, type: 3}
+      propertyPath: attackRadius
+      value: 2.51
+      objectReference: {fileID: 0}
     - target: {fileID: 8013369921694497165, guid: 170ee811ae5df11429d9f519f17394a3, type: 3}
       propertyPath: m_Name
       value: Zombie (4)
@@ -2721,7 +2725,7 @@ Transform:
   m_GameObject: {fileID: 1430989968}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 60.640003, y: -21.577616, z: 0}
+  m_LocalPosition: {x: 98.6, y: -21.577616, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
