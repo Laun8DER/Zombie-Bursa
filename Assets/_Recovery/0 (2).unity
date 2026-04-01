@@ -905,7 +905,6 @@ GameObject:
   - component: {fileID: 560587607}
   - component: {fileID: 560587608}
   - component: {fileID: 560587609}
-  - component: {fileID: 560587610}
   m_Layer: 0
   m_Name: Ardakun
   m_TagString: Player
@@ -1324,19 +1323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDoorInteractor
   playerRigidbody: {fileID: 560587604}
---- !u!114 &560587610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560587599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab8e2c7c29164d29a410fa0622594128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

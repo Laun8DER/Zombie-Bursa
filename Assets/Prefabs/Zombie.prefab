@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4757223345979587080}
   - component: {fileID: 5055229349652895176}
   - component: {fileID: 2789020398165665570}
+  - component: {fileID: 6154389201742286412}
   - component: {fileID: 1145739644033316547}
   m_Layer: 3
   m_Name: Zombie
@@ -183,6 +184,33 @@ MonoBehaviour:
   maxHealth: 3
   animator: {fileID: 1145739644033316547}
   deathEffect: {fileID: 0}
+--- !u!114 &6154389201742286412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013369921694497165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b86d4492a2482a8b621d6c3de89062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
+  rb: {fileID: 5055229349652895176}
+  spriteRenderer: {fileID: 7327540357709500427}
+  health: {fileID: 2789020398165665570}
+  moveSpeed: 3
+  detectionRadius: 8
+  stopDistance: 1.2
+  retargetInterval: 0.15
+  attackRadius: 1.5
+  attackCooldown: 1
+  attackDamage: 1
+  enableDebugLogs: 1
+  playerTag: Player
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!95 &1145739644033316547
 Animator:
   serializedVersion: 7

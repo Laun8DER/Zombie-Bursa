@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
     private int currentHealth;
     public Animator animator;
     private bool isDead = false;
+    public bool IsDead => isDead;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
