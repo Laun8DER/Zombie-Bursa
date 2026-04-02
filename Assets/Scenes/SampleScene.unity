@@ -270,9 +270,9 @@ MonoBehaviour:
   swayAmplitude: 0.08
   swayFrequency: 1.35
   jumpLagThreshold: 0.1
-  verticalLagFactor: 0.09
-  maxVerticalLag: 0.45
-  airborneSmoothMultiplier: 1.8
+  verticalLagFactor: 1
+  maxVerticalLag: 3
+  airborneSmoothMultiplier: 1.2
   hideWhenPlayerDies: 1
 --- !u!212 &47335855
 SpriteRenderer:
@@ -8101,9 +8101,9 @@ MonoBehaviour:
   swayAmplitude: 0.08
   swayFrequency: 1.35
   jumpLagThreshold: 0.1
-  verticalLagFactor: 0.12
-  maxVerticalLag: 0.45
-  airborneSmoothMultiplier: 1.8
+  verticalLagFactor: 1
+  maxVerticalLag: 3
+  airborneSmoothMultiplier: 1.2
   hideWhenPlayerDies: 1
 --- !u!212 &1960670221
 SpriteRenderer:
@@ -8591,9 +8591,9 @@ MonoBehaviour:
   swayAmplitude: 0.08
   swayFrequency: 1.35
   jumpLagThreshold: 0.1
-  verticalLagFactor: 0.06
-  maxVerticalLag: 0.45
-  airborneSmoothMultiplier: 1.8
+  verticalLagFactor: 1
+  maxVerticalLag: 3
+  airborneSmoothMultiplier: 1.2
   hideWhenPlayerDies: 1
 --- !u!1 &2098857497
 GameObject:
