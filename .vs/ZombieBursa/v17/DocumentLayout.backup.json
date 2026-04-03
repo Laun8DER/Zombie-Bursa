@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ZOMBIE BURSA\\ZombieBursa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\ultradublya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ultradublya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\items\\ball_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\ball_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,15 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UltraDublya.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\UltraDublya.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UltraDublya.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\UltraDublya.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UltraDublya.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:51:20.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Ball_Physics.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Ball_Physics.cs",
@@ -67,81 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerInputManager.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Input\\PlayerInputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\PlayerInputManager.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Input\\PlayerInputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Input\\PlayerInputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T16:23:40.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Health.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Combat\\Health.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T14:45:30.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerInputHandler.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:54:41.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BurpAttack.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAIwKEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:51:43.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BurpAttack.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BurpAttack.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BurpAttack.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:11:06.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScreenShake.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenShake.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\ScreenShake.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenShake.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\ScreenShake.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:45:52.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DelegateHelpers.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs",
@@ -153,8 +92,83 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "PlayerInputManager.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Input\\PlayerInputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\PlayerInputManager.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Input\\PlayerInputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Input\\PlayerInputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:23:40.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Health.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Health.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:45:30.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerInputHandler.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:54:41.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BurpAttack.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAIwKEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:51:43.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BurpAttack.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BurpAttack.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BurpAttack.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:11:06.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScreenShake.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenShake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\ScreenShake.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenShake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\ScreenShake.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:45:52.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PlayerInputManager.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\PlayerInputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInputManager.cs",

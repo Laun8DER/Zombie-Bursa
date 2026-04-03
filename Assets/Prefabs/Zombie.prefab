@@ -197,6 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
   rb: {fileID: 5055229349652895176}
+  bodyCollider: {fileID: 0}
   spriteRenderer: {fileID: 7327540357709500427}
   animator: {fileID: 1145739644033316547}
   health: {fileID: 2789020398165665570}
