@@ -15,19 +15,16 @@ public class PlayerDoorInteractor : MonoBehaviour
             playerRigidbody = GetComponent<Rigidbody2D>();
         }
     }
-
-    private void Update()
+    private void OnEnable()
     {
-        Keyboard keyboard = Keyboard.current;
-        if (keyboard == null || !keyboard.eKey.wasPressedThisFrame)
-        {
-            return;
-        }
-
-        TryInteract();
+        PlayerInputManager.Instance.actions.Player.Interact.performed += TryInteract;
+    }
+    private void OnDisable()
+    {
+        PlayerInputManager.Instance.actions.Player.Interact.performed -= TryInteract;
     }
 
-    private void TryInteract()
+    private void TryInteract(InputAction.CallbackContext context)
     {
         DoorTeleport nearestDoor = null;
         float nearestDistance = float.MaxValue;

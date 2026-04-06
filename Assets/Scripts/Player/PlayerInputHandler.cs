@@ -18,6 +18,9 @@ public class PlayerInputHandler : MonoBehaviour
     public float checkRadius = 0.2f;
     public LayerMask groundLayer;
 
+    public AudioSource audioSource; 
+    public AudioClip footstepClip;
+
 
 
     private void Start()
@@ -27,6 +30,11 @@ public class PlayerInputHandler : MonoBehaviour
         if (groundLayer == 0)
         {
             groundLayer = ~LayerMask.GetMask("Ignore Raycast");
+        }
+        if (audioSource != null && footstepClip != null)
+        {
+            audioSource.clip = footstepClip;
+            audioSource.loop = true; 
         }
     }
 
@@ -52,6 +60,16 @@ public class PlayerInputHandler : MonoBehaviour
         {
             animator.SetBool("IsJumping", false);
             Debug.Log(isGrounded);
+        }
+        if (isGrounded && Mathf.Abs(horizontalMovement) > 0.01f)
+        {
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+        }
+        else
+        {
+            if (audioSource.isPlaying)
+                audioSource.Pause(); // або Stop()
         }
     }
     public void Move(InputAction.CallbackContext context)

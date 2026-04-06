@@ -9,6 +9,9 @@ public class Health : MonoBehaviour
     private bool isDead = false;
     public bool IsDead => isDead;
 
+    public AudioSource audioSource;
+    public AudioClip explosionClip;
+
     [Header("Death Effects")]
     public GameObject deathEffect;
 
@@ -46,6 +49,7 @@ public class Health : MonoBehaviour
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
         animator.SetTrigger("IsDead");
+        audioSource.PlayOneShot(explosionClip);
     }
     public void DestroySelf()
     {
