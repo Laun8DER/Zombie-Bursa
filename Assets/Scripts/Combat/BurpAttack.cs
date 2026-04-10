@@ -136,14 +136,9 @@ public class BurpAttack : MonoBehaviour
             Debug.Log($"Ray hit: {hit.collider.name}");
             if (hit.collider.CompareTag("enemy"))
             {
-                if (!hitEnemies.Contains(hit.collider.gameObject))
+                if (!hitEnemies.Contains(hit.collider.gameObject) && TryDamageEnemy(hit.collider))
                 {
-                    Health targetHealth = hit.collider.GetComponent<Health>();
-                    if (targetHealth != null)
-                    {
-                        targetHealth.TakeDamage(burpDamage);
-                        hitEnemies.Add(hit.collider.gameObject);
-                    }
+                    hitEnemies.Add(hit.collider.gameObject);
                 }
             }
         }
@@ -205,5 +200,39 @@ public class BurpAttack : MonoBehaviour
         animator.SetBool("IsBurping", false);
         animator.SetBool("FacingLeft", false);
         animator.SetBool("FacingRight", false);
+    }
+
+    private bool TryDamageEnemy(Collider2D enemyCollider)
+    {
+        if (enemyCollider == null)
+        {
+            return false;
+        }
+
+        Health targetHealth = enemyCollider.GetComponent<Health>();
+        if (targetHealth == null)
+        {
+            targetHealth = enemyCollider.GetComponentInParent<Health>();
+        }
+
+        if (targetHealth != null)
+        {
+            targetHealth.TakeDamage(burpDamage);
+            return true;
+        }
+
+        ZombieKFC_Health zombieKfcHealth = enemyCollider.GetComponent<ZombieKFC_Health>();
+        if (zombieKfcHealth == null)
+        {
+            zombieKfcHealth = enemyCollider.GetComponentInParent<ZombieKFC_Health>();
+        }
+
+        if (zombieKfcHealth != null)
+        {
+            zombieKfcHealth.TakeDamage(burpDamage);
+            return true;
+        }
+
+        return false;
     }
 }
