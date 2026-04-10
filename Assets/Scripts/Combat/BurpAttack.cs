@@ -50,6 +50,7 @@ public class BurpAttack : MonoBehaviour
     {
         TrySubscribeBurp();
         audioSource.clip = mySound;
+        RefreshStaminaBar();
     }
 
     private void TrySubscribeBurp()
@@ -94,11 +95,7 @@ public class BurpAttack : MonoBehaviour
             currentStamina = Mathf.Min(currentStamina, maxStamina);
         }
 
-        // Обновляем шкалу (Fill Amount принимает значение от 0 до 1)
-        if (staminaBarImage != null)
-        {
-            staminaBarImage.fillAmount = currentStamina / maxStamina;
-        }
+        RefreshStaminaBar();
 
         if (!isBurping)
         {
@@ -202,6 +199,17 @@ public class BurpAttack : MonoBehaviour
         animator.SetBool("FacingRight", false);
     }
 
+    public void RestoreStamina(float amount)
+    {
+        if (amount <= 0f)
+        {
+            return;
+        }
+
+        currentStamina = Mathf.Clamp(currentStamina + amount, 0f, maxStamina);
+        RefreshStaminaBar();
+    }
+
     private bool TryDamageEnemy(Collider2D enemyCollider)
     {
         if (enemyCollider == null)
@@ -215,24 +223,22 @@ public class BurpAttack : MonoBehaviour
             targetHealth = enemyCollider.GetComponentInParent<Health>();
         }
 
-        if (targetHealth != null)
+        if (targetHealth == null)
         {
-            targetHealth.TakeDamage(burpDamage);
-            return true;
+            return false;
         }
 
-        ZombieKFC_Health zombieKfcHealth = enemyCollider.GetComponent<ZombieKFC_Health>();
-        if (zombieKfcHealth == null)
+        targetHealth.TakeDamage(burpDamage);
+        return true;
+    }
+
+    private void RefreshStaminaBar()
+    {
+        if (staminaBarImage == null || maxStamina <= 0f)
         {
-            zombieKfcHealth = enemyCollider.GetComponentInParent<ZombieKFC_Health>();
+            return;
         }
 
-        if (zombieKfcHealth != null)
-        {
-            zombieKfcHealth.TakeDamage(burpDamage);
-            return true;
-        }
-
-        return false;
+        staminaBarImage.fillAmount = currentStamina / maxStamina;
     }
 }

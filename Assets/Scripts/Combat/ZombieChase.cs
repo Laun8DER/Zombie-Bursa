@@ -26,6 +26,11 @@ public class ZombieChase : MonoBehaviour
     [Header("Visual")]
     public bool invertFacing = false;
 
+    [Header("Animation States")]
+    public string idleStateName = "Zombie_Idle";
+    public string walkStateName = "Zombie_Walk";
+    public string biteStateName = "Zombie_Bite";
+
     [Header("Targeting")]
     public string playerTag = "Player";
     public LayerMask targetLayers = ~0;
@@ -38,10 +43,6 @@ public class ZombieChase : MonoBehaviour
     private float attackAnimationTimer;
     private bool wasInAttackRange;
     private string currentAnimationState;
-
-    private const string IdleStateName = "Zombie_Idle";
-    private const string WalkStateName = "Zombie_Walk";
-    private const string BiteStateName = "Zombie_Bite";
 
     private void Awake()
     {
@@ -93,7 +94,7 @@ public class ZombieChase : MonoBehaviour
         if (currentTarget == null)
         {
             wasInAttackRange = false;
-            PlayAnimationState(IdleStateName);
+            PlayAnimationState(idleStateName);
             StopHorizontalMovement();
             return;
         }
@@ -102,7 +103,7 @@ public class ZombieChase : MonoBehaviour
         {
             LogDebug("Цель стала неактивной.");
             ClearTarget();
-            PlayAnimationState(IdleStateName);
+            PlayAnimationState(idleStateName);
             StopHorizontalMovement();
             return;
         }
@@ -118,7 +119,7 @@ public class ZombieChase : MonoBehaviour
         if (attackAnimationTimer > 0f)
         {
             StopHorizontalMovement();
-            PlayAnimationState(BiteStateName);
+            PlayAnimationState(biteStateName);
             return;
         }
 
@@ -131,7 +132,7 @@ public class ZombieChase : MonoBehaviour
             }
 
             StopHorizontalMovement();
-            PlayAnimationState(IdleStateName);
+            PlayAnimationState(idleStateName);
             TryDealDamage();
             return;
         }
@@ -144,7 +145,7 @@ public class ZombieChase : MonoBehaviour
 
         float direction = Mathf.Sign(horizontalDistance);
         rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
-        PlayAnimationState(WalkStateName);
+        PlayAnimationState(walkStateName);
     }
 
     private void RefreshTarget()
@@ -206,7 +207,7 @@ public class ZombieChase : MonoBehaviour
 
         currentTargetHealth.TakeDamage(attackDamage);
         attackAnimationTimer = attackAnimationDuration;
-        ForcePlayAnimationState(BiteStateName);
+        ForcePlayAnimationState(biteStateName);
         LogDebug($"Укусил {currentTarget.name} и нанес {attackDamage} урона. ХП игрока: {currentTargetHealth.CurrentHealth}/{currentTargetHealth.MaxHealth}.");
         attackTimer = attackCooldown;
     }
@@ -268,7 +269,7 @@ public class ZombieChase : MonoBehaviour
 
     private void PlayAnimationState(string stateName)
     {
-        if (animator == null || currentAnimationState == stateName)
+        if (animator == null || string.IsNullOrWhiteSpace(stateName) || currentAnimationState == stateName)
         {
             return;
         }
@@ -279,7 +280,7 @@ public class ZombieChase : MonoBehaviour
 
     private void ForcePlayAnimationState(string stateName)
     {
-        if (animator == null)
+        if (animator == null || string.IsNullOrWhiteSpace(stateName))
         {
             return;
         }

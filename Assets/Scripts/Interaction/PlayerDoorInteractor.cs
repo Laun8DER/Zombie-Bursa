@@ -17,11 +17,23 @@ public class PlayerDoorInteractor : MonoBehaviour
     }
     private void OnEnable()
     {
-        PlayerInputManager.Instance.actions.Player.Interact.performed += TryInteract;
+        PlayerInputManager inputManager = PlayerInputManager.Instance;
+        if (inputManager == null || inputManager.actions == null)
+        {
+            return;
+        }
+
+        inputManager.actions.Player.Interact.performed += TryInteract;
     }
     private void OnDisable()
     {
-        PlayerInputManager.Instance.actions.Player.Interact.performed -= TryInteract;
+        PlayerInputManager inputManager = PlayerInputManager.Instance;
+        if (inputManager == null || inputManager.actions == null)
+        {
+            return;
+        }
+
+        inputManager.actions.Player.Interact.performed -= TryInteract;
     }
 
     private void TryInteract(InputAction.CallbackContext context)

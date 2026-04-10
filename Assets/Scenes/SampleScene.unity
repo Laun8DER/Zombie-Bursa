@@ -16827,14 +16827,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1597326706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81f64b871722bae4590dfdaa270af189, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b2899892423a983891a70b3ad7c8051, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZombieKFC_Health
+  m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 3
   animator: {fileID: 1597326707}
   audioSource: {fileID: 1597326712}
   explosionClip: {fileID: 8300000, guid: ff77877bf8802e14780ea5d58195d3ed, type: 3}
   deathEffect: {fileID: 0}
+  energyDrinkPrefabs:
+  - {fileID: 6227506494914883824, guid: 84b2db74585d0d37988fc9e9f7ca04bd, type: 3}
+  - {fileID: 4032482852319126218, guid: 31b9261eb49c3973fa97786449fbbb11, type: 3}
+  energyDrinkSpawnChances:
+  - 50
+  - 50
 --- !u!114 &1597326716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16844,9 +16850,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1597326706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36b0fd564dfc0b34a954b9b5d3d19c7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 00b86d4492a2482a8b621d6c3de89062, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZombieKFCChase
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
   rb: {fileID: 1597326713}
   bodyCollider: {fileID: 1597326714}
   spriteRenderer: {fileID: 1597326708}
@@ -16860,7 +16866,10 @@ MonoBehaviour:
   attackAnimationDuration: 0.35
   attackDamage: 1
   enableDebugLogs: 1
-  invertFacing: 0
+  invertFacing: 1
+  idleStateName: ZombieKFC_Idle
+  walkStateName: ZombieKFC_Walk
+  biteStateName: ZombieKFC_Bite
   playerTag: Player
   targetLayers:
     serializedVersion: 2

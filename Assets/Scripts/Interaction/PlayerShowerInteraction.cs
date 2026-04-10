@@ -9,7 +9,7 @@ public class PlayerShowerInteraction : MonoBehaviour
     public PlayableDirector director;
 
     [Header("Prompt")]
-    public GameObject promptObject; // кнопка-підказка
+    public GameObject promptObject;
     public float promptFadeInDuration = 0.2f;
     public float promptFadeOutDuration = 0.6f;
 
@@ -29,17 +29,28 @@ public class PlayerShowerInteraction : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerInputManager.Instance.actions.Player.Interact.performed += StartCutscene;
+        PlayerInputManager inputManager = PlayerInputManager.Instance;
+        if (inputManager == null || inputManager.actions == null)
+        {
+            return;
+        }
+
+        inputManager.actions.Player.Interact.performed += StartCutscene;
     }
 
     private void OnDisable()
     {
-        PlayerInputManager.Instance.actions.Player.Interact.performed -= StartCutscene;
+        PlayerInputManager inputManager = PlayerInputManager.Instance;
+        if (inputManager == null || inputManager.actions == null)
+        {
+            return;
+        }
+
+        inputManager.actions.Player.Interact.performed -= StartCutscene;
     }
 
     private void Update()
     {
-        // плавний fade для кнопки
         if (promptObject == null || Mathf.Approximately(promptAlpha, targetPromptAlpha))
             return;
 

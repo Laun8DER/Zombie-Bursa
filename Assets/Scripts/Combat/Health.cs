@@ -15,6 +15,12 @@ public class Health : MonoBehaviour
     [Header("Death Effects")]
     public GameObject deathEffect;
 
+    [Header("Loot Drop")]
+    public GameObject[] energyDrinkPrefabs;
+    public float[] energyDrinkSpawnChances;
+
+    private bool hasSpawnedEnergyDrink;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -53,11 +59,78 @@ public class Health : MonoBehaviour
     }
     public void DestroySelf()
     {
+        SpawnEnergyDrink();
         Destroy(gameObject);
     }
 
     public int GetCurrentHealth()
     {
         return currentHealth;
+    }
+
+    private void SpawnEnergyDrink()
+    {
+        if (hasSpawnedEnergyDrink)
+        {
+            return;
+        }
+
+        int selectedIndex = GetRandomEnergyDrinkIndex();
+        if (selectedIndex < 0)
+        {
+            return;
+        }
+
+        GameObject energyDrinkPrefab = energyDrinkPrefabs[selectedIndex];
+        if (energyDrinkPrefab == null)
+        {
+            return;
+        }
+
+        Object prefabToSpawn = energyDrinkPrefab;
+        Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+        hasSpawnedEnergyDrink = true;
+    }
+
+    private int GetRandomEnergyDrinkIndex()
+    {
+        if (energyDrinkPrefabs == null || energyDrinkSpawnChances == null)
+        {
+            return -1;
+        }
+
+        int entryCount = Mathf.Min(energyDrinkPrefabs.Length, energyDrinkSpawnChances.Length);
+        if (entryCount == 0)
+        {
+            return -1;
+        }
+
+        int successfulRollCount = 0;
+        int lastSuccessfulIndex = -1;
+
+        for (int i = 0; i < entryCount; i++)
+        {
+            if (energyDrinkPrefabs[i] == null)
+            {
+                continue;
+            }
+
+            float dropChance = Mathf.Clamp(energyDrinkSpawnChances[i], 0f, 100f);
+            if (dropChance <= 0f)
+            {
+                continue;
+            }
+
+            if (Random.Range(0f, 100f) <= dropChance)
+            {
+                successfulRollCount++;
+                if (Random.Range(0, successfulRollCount) == 0)
+                {
+                    lastSuccessfulIndex = i;
+                }
+            }
+        }
+
+        return lastSuccessfulIndex;
     }
 }
