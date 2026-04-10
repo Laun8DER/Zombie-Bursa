@@ -227,6 +227,45 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Cutscenes",
+            "id": "8a9f332c-25a8-4fd7-8b13-e20b4ec37daa",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "974779a6-3365-4eb5-9f91-95403ef541d4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "78ba9bcb-08a1-4f2c-9759-a3e64072a042",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74ec71e0-9355-4a9c-8d62-fe92d875eefc",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

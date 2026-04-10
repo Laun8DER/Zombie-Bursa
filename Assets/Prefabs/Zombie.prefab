@@ -131,7 +131,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.007919073, y: 1.8592483}
+  m_Offset: {x: 0.072764635, y: 1.7728015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -141,7 +141,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.0316443, y: 3.639243}
+  m_Size: {x: 1.3631225, y: 3.4663494}
   m_EdgeRadius: 0
 --- !u!50 &5055229349652895176
 Rigidbody2D:
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
   rb: {fileID: 5055229349652895176}
-  bodyCollider: {fileID: 0}
+  bodyCollider: {fileID: 4757223345979587080}
   spriteRenderer: {fileID: 7327540357709500427}
   animator: {fileID: 1145739644033316547}
   health: {fileID: 2789020398165665570}

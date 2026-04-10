@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: aeed1f27cc8b5d84db816d9c41328aa4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZombieKFC_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd08c20d3c1037c44b0b65e6fd1f8090
+      internalID: 2029780199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 369
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708054b71cd9ba144a70a34372087733
+      internalID: -415737511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 369
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0892b01be0ec043830d1e01cf7d98f
+      internalID: -1020003712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 369
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee94aed628af6448b5d50a341f34afd
+      internalID: -1578929269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906c0c6a2b175c41aac5e83e86ae6c9
+      internalID: 1710753271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 246
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84458bfa0c6e2ca4bae919d75df995e0
+      internalID: -1755200558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 246
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea965213fc88df14e9abbb987f9d25dc
+      internalID: 1800064744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 246
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78467e71585074443810e6ca25373d6a
+      internalID: 1037592019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a379121dccc344ac0e194313ae8ad
+      internalID: 1858004009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 123
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ee113e1984d9447b2cf0088e9a795e
+      internalID: -1562900981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 123
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6655b445f430d7f4d839b3c438283efc
+      internalID: -215356701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 123
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e0b6ede68342342acf5d6f9b857d0a
+      internalID: -260796395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281a10732467aac4bacb2703ec4334ca
+      internalID: 881655417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieKFC_Death_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff802320006cc7478fd712fb376cede
+      internalID: 941001417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":114.0,"y":123.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5699999928474426,"y":0.27000001072883608},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ZombieKFC_Death_0: 2029780199
+      ZombieKFC_Death_1: -415737511
+      ZombieKFC_Death_10: -215356701
+      ZombieKFC_Death_11: -260796395
+      ZombieKFC_Death_12: 881655417
+      ZombieKFC_Death_13: 941001417
+      ZombieKFC_Death_2: -1020003712
+      ZombieKFC_Death_3: -1578929269
+      ZombieKFC_Death_4: 1710753271
+      ZombieKFC_Death_5: -1755200558
+      ZombieKFC_Death_6: 1800064744
+      ZombieKFC_Death_7: 1037592019
+      ZombieKFC_Death_8: 1858004009
+      ZombieKFC_Death_9: -1562900981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

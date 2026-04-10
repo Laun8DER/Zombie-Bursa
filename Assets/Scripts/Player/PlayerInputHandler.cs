@@ -3,64 +3,73 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 12f;
+    public float jumpForce = 6f;
+
+    [Header("Components")]
     public Rigidbody2D rb;
     public Animator animator;
-    public Vector2 moveInput;
-    public PlayerInput playerInput;
-    public Transform playerTransform;
-    private Vector2 movement;
     public SpriteRenderer spriteRenderer;
-    private float jumpForce = 8f;
-    private bool isGrounded;
-    float horizontalMovement;
+    public PlayerInput playerInput;
+
+    [Header("Ground Check")]
     public Vector2 groundOffset = new Vector2(0, -1f);
     public float checkRadius = 0.2f;
     public LayerMask groundLayer;
 
-    public AudioSource audioSource; 
+    [Header("Audio")]
+    public AudioSource audioSource;
     public AudioClip footstepClip;
 
+    private float horizontalMovement;
+    private bool isGrounded;
 
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-
         if (groundLayer == 0)
         {
             groundLayer = ~LayerMask.GetMask("Ignore Raycast");
         }
+
         if (audioSource != null && footstepClip != null)
         {
             audioSource.clip = footstepClip;
-            audioSource.loop = true; 
+            audioSource.loop = true;
         }
     }
 
-    //MOVE
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        if (animator.GetBool("IsBurping") == false)
+        CheckGround();
+
+        // MOVEMENT
+        if (!animator.GetBool("IsBurping"))
         {
             rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, rb.linearVelocity.y);
         }
 
-
+        // ANIMATOR SPEED
         animator.SetFloat("magnitude", Mathf.Abs(rb.linearVelocity.x));
 
+        // FLIP
         if (horizontalMovement > 0.01f)
             spriteRenderer.flipX = false;
         else if (horizontalMovement < -0.01f)
             spriteRenderer.flipX = true;
 
-        CheckGround();
-
+        // LAND RESET
         if (isGrounded && animator.GetBool("IsJumping"))
         {
             animator.SetBool("IsJumping", false);
-            Debug.Log(isGrounded);
         }
+
+        // FOOTSTEPS
         if (isGrounded && Mathf.Abs(horizontalMovement) > 0.01f)
         {
             if (!audioSource.isPlaying)
@@ -69,35 +78,44 @@ public class PlayerInputHandler : MonoBehaviour
         else
         {
             if (audioSource.isPlaying)
-                audioSource.Pause(); // або Stop()
+                audioSource.Pause();
         }
     }
+
+    // MOVE (Input System Event)
     public void Move(InputAction.CallbackContext context)
     {
         horizontalMovement = context.ReadValue<Vector2>().x;
     }
-    //JUMP
 
+    // JUMP (Input System Event)
     public void OnJump(InputAction.CallbackContext context)
     {
+        if (!context.performed) return;
+
         CheckGround();
-        if (context.performed && isGrounded)
+
+        if (isGrounded)
         {
             animator.SetBool("IsJumping", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
+
     private void CheckGround()
     {
         Vector2 checkPos = (Vector2)transform.position + groundOffset;
 
-        // Находим все коллайдеры в радиусе
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(checkPos, checkRadius, groundLayer);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(
+            checkPos,
+            checkRadius,
+            groundLayer
+        );
 
         isGrounded = false;
+
         foreach (var collider in colliders)
         {
-            // Если коллайдер не принадлежит игроку — мы на земле
             if (collider.gameObject != gameObject)
             {
                 isGrounded = true;

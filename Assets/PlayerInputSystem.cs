@@ -313,6 +313,45 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Cutscenes"",
+            ""id"": ""8a9f332c-25a8-4fd7-8b13-e20b4ec37daa"",
+            ""actions"": [
+                {
+                    ""name"": ""Interact"",
+                    ""type"": ""Button"",
+                    ""id"": ""974779a6-3365-4eb5-9f91-95403ef541d4"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""78ba9bcb-08a1-4f2c-9759-a3e64072a042"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""74ec71e0-9355-4a9c-8d62-fe92d875eefc"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -326,12 +365,16 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
+        // Cutscenes
+        m_Cutscenes = asset.FindActionMap("Cutscenes", throwIfNotFound: true);
+        m_Cutscenes_Interact = m_Cutscenes.FindAction("Interact", throwIfNotFound: true);
     }
 
     ~@PlayerInputSystem()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, PlayerInputSystem.Player.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, PlayerInputSystem.UI.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Cutscenes.enabled, "This will cause a leak and performance issues, PlayerInputSystem.Cutscenes.Disable() has not been called.");
     }
 
     /// <summary>
@@ -628,6 +671,102 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="UIActions" /> instance referencing this action map.
     /// </summary>
     public UIActions @UI => new UIActions(this);
+
+    // Cutscenes
+    private readonly InputActionMap m_Cutscenes;
+    private List<ICutscenesActions> m_CutscenesActionsCallbackInterfaces = new List<ICutscenesActions>();
+    private readonly InputAction m_Cutscenes_Interact;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "Cutscenes".
+    /// </summary>
+    public struct CutscenesActions
+    {
+        private @PlayerInputSystem m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public CutscenesActions(@PlayerInputSystem wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "Cutscenes/Interact".
+        /// </summary>
+        public InputAction @Interact => m_Wrapper.m_Cutscenes_Interact;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_Cutscenes; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="CutscenesActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(CutscenesActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="CutscenesActions" />
+        public void AddCallbacks(ICutscenesActions instance)
+        {
+            if (instance == null || m_Wrapper.m_CutscenesActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_CutscenesActionsCallbackInterfaces.Add(instance);
+            @Interact.started += instance.OnInteract;
+            @Interact.performed += instance.OnInteract;
+            @Interact.canceled += instance.OnInteract;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="CutscenesActions" />
+        private void UnregisterCallbacks(ICutscenesActions instance)
+        {
+            @Interact.started -= instance.OnInteract;
+            @Interact.performed -= instance.OnInteract;
+            @Interact.canceled -= instance.OnInteract;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="CutscenesActions.UnregisterCallbacks(ICutscenesActions)" />.
+        /// </summary>
+        /// <seealso cref="CutscenesActions.UnregisterCallbacks(ICutscenesActions)" />
+        public void RemoveCallbacks(ICutscenesActions instance)
+        {
+            if (m_Wrapper.m_CutscenesActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="CutscenesActions.AddCallbacks(ICutscenesActions)" />
+        /// <seealso cref="CutscenesActions.RemoveCallbacks(ICutscenesActions)" />
+        /// <seealso cref="CutscenesActions.UnregisterCallbacks(ICutscenesActions)" />
+        public void SetCallbacks(ICutscenesActions instance)
+        {
+            foreach (var item in m_Wrapper.m_CutscenesActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_CutscenesActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="CutscenesActions" /> instance referencing this action map.
+    /// </summary>
+    public CutscenesActions @Cutscenes => new CutscenesActions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Player" which allows adding and removing callbacks.
     /// </summary>
@@ -678,5 +817,20 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnNewaction(InputAction.CallbackContext context);
+    }
+    /// <summary>
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Cutscenes" which allows adding and removing callbacks.
+    /// </summary>
+    /// <seealso cref="CutscenesActions.AddCallbacks(ICutscenesActions)" />
+    /// <seealso cref="CutscenesActions.RemoveCallbacks(ICutscenesActions)" />
+    public interface ICutscenesActions
+    {
+        /// <summary>
+        /// Method invoked when associated input action "Interact" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInteract(InputAction.CallbackContext context);
     }
 }

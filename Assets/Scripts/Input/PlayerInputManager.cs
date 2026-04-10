@@ -38,20 +38,28 @@ public class PlayerInputManager : MonoBehaviour
     }
     public void ChangeInputMap(InputType inputType)
     {
+        Debug.Log($"ChangeInputMap: {inputType} | {System.Environment.StackTrace}");
         switch (inputType)
         {
             case InputType.Player:
                 actions.Player.Enable();
                 actions.UI.Disable();
+                actions.Cutscenes.Disable();
                 break;
             case InputType.UI:
                 actions.UI.Enable();
                 actions.Player.Disable();
+                actions.Cutscenes.Disable();
+                break;
+            case InputType.Cutscenes:
+                actions.Cutscenes.Enable(); 
+                actions.Player.Disable();   
+                actions.UI.Disable();
                 break;
         }
     }
     public enum InputType
     {
-        Player, UI  
+        Player, UI, Cutscenes
     }
 }

@@ -3,7 +3,6 @@ using UnityEngine;
 public class Ball_Physics : MonoBehaviour
 {
     public Rigidbody2D rigidBodyBall;
-    private float forceStrength = 0.5f;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
