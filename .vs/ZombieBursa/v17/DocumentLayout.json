@@ -3,24 +3,100 @@
   "WorkspaceRootPath": "C:\\ZOMBIE BURSA\\ZombieBursa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\doorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\doorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\promptfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\promptfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\gamesettings\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesettings\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\cutscenes\\106\\beggining_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenes\\106\\beggining_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\cutscenes\\106\\cutscene_zombie_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenes\\106\\cutscene_zombie_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\zombiechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\zombiechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\cutscenes\\106\\cutscene_zombie_chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenes\\106\\cutscene_zombie_chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\dialogssystem\\timer_dialog_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogssystem\\timer_dialog_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\cutscenes\\106\\timer_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenes\\106\\timer_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\playershowerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\playershowerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\energydrinkpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\energydrinkpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\energydrinkaddcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\energydrinkaddcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\parallax\\parallax_effect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallax\\parallax_effect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\items\\interact_item_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\interact_item_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Items\\Ball_Physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\EnergyDrinkCutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnergyDrinkCutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\playerdoorinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\playerdoorinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\tiktok\\vibecodemodeultra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\tiktok\\vibecodemodeultra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiktok\\vibecodemodeultra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\heartcompanionfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\heartcompanionfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\cutscenes\\106\\beggining_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenes\\106\\beggining_cutscene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\input\\playerinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +107,8 @@
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\playershowerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\playershowerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\items\\ball_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\ball_physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Manager_106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,14 +131,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\doorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\doorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\promptfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\promptfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BurpAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,6 +141,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\ShowerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Cutscenes\\ShowerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Combat\\ZombieToilet_Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,6 +159,271 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ScreenFade.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\ScreenFade.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\ScreenFade.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv5QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:10:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ZombieChase.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieChase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\ZombieChase.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieChase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\ZombieChase.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAkwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T08:01:52.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Health.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Health.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T20:12:38.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Beggining_Cutscene_Manager.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwFcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:02:01.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BurpAttack.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\BurpAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:51:43.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PromptFade.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PromptFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PromptFade.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PromptFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PromptFade.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:21:21.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoorTeleport.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\DoorTeleport.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\DoorTeleport.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\DoorTeleport.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\DoorTeleport.cs",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAAwFMBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T12:16:17.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInputHandler.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:54:41.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameSettings.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\GameSettings\\GameSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings\\GameSettings.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\GameSettings\\GameSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSettings\\GameSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T23:49:09.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cutscene_Zombie_Chase.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Chase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Chase.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Chase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Chase.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAcwDkBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:48:18.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cutscene_Zombie_Health.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Health.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cutscenes\\106\\Cutscene_Zombie_Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:50:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerShowerInteraction.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T13:38:21.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnergyDrinkPickup.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\EnergyDrinkPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\EnergyDrinkPickup.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\EnergyDrinkPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\EnergyDrinkPickup.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:20:05.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Timer_Cutscene_Manager.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Timer_Cutscene_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Timer_Cutscene_Manager.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Timer_Cutscene_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cutscenes\\106\\Timer_Cutscene_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T20:02:21.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Timer_Dialog_Manager.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\DialogsSystem\\Timer_Dialog_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogsSystem\\Timer_Dialog_Manager.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\DialogsSystem\\Timer_Dialog_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogsSystem\\Timer_Dialog_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T12:07:59.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnergyDrinkAddCollection.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\EnergyDrinkAddCollection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\EnergyDrinkAddCollection.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\EnergyDrinkAddCollection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\EnergyDrinkAddCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T13:27:50.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Parallax_Effect.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Parallax\\Parallax_Effect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax\\Parallax_Effect.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Parallax\\Parallax_Effect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Parallax\\Parallax_Effect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:07:35.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ZombieToilet_Chase.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\ZombieToilet_Chase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T20:13:19.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnergyDrinkCutscene.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\EnergyDrinkCutscene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnergyDrinkCutscene.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\EnergyDrinkCutscene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnergyDrinkCutscene.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T20:12:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Interact_Item_Physics.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Interact_Item_Physics.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Interact_Item_Physics.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Interact_Item_Physics.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Interact_Item_Physics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:45:18.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ZombieToilet_Health.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\ZombieToilet_Health.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieToilet_Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\ZombieToilet_Health.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T20:12:46.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ball_Physics.cs",
+              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Ball_Physics.cs",
+              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Ball_Physics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:20:43.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "VibeCodeModeUltra.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Tiktok\\VibeCodeModeUltra.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tiktok\\VibeCodeModeUltra.cs",
@@ -110,12 +431,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Tiktok\\VibeCodeModeUltra.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T19:01:10.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T19:01:10.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "PlayerInputManager.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Input\\PlayerInputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\PlayerInputManager.cs",
@@ -127,19 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerShowerInteraction.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PlayerShowerInteraction.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T13:38:21.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
@@ -151,20 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ZombieChase.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieChase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\ZombieChase.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\ZombieChase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Combat\\ZombieChase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T08:01:52.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "PlayerDoorInteractor.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PlayerDoorInteractor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PlayerDoorInteractor.cs",
@@ -172,24 +467,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Interaction\\PlayerDoorInteractor.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T22:23:47.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T22:23:47.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Beggining_Cutscene_Manager.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Cutscenes\\106\\Beggining_Cutscene_Manager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwD4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:02:01.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
               "Title": "HeartCompanionFollower.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\HeartCompanionFollower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\HeartCompanionFollower.cs",
@@ -201,19 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerInputHandler.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:54:41.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs",
@@ -221,36 +491,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs",
               "ViewState": "AgIAADEEAAAAAAAAAAAqwFMEAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T19:01:30.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T19:01:30.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Ball_Physics.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Ball_Physics.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Items\\Ball_Physics.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items\\Ball_Physics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:20:43.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BurpAttack.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Combat\\BurpAttack.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwKEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:51:43.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "Cutscene_Manager_106.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\Cutscene_Manager_106.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\Cutscene_Manager_106.cs",
@@ -261,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "SwitchInputMode.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\106\\SwitchInputMode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\106\\SwitchInputMode.cs",
@@ -272,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "FatZombieBounceTrigger.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\FatZombieBounceTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\FatZombieBounceTrigger.cs",
@@ -284,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "ShowerManager.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Cutscenes\\ShowerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cutscenes\\ShowerManager.cs",
@@ -296,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "DelegateHelpers.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs",
@@ -304,36 +549,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:22:22.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:22:22.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PromptFade.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PromptFade.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PromptFade.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\PromptFade.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PromptFade.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:21:21.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DoorTeleport.cs",
-              "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\DoorTeleport.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\DoorTeleport.cs",
-              "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Interaction\\DoorTeleport.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interaction\\DoorTeleport.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T12:16:17.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "BurpAttack.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\BurpAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BurpAttack.cs",
@@ -344,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "ScreenShake.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenShake.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\ScreenShake.cs",
@@ -356,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "PlayerInputManager.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\PlayerInputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInputManager.cs",

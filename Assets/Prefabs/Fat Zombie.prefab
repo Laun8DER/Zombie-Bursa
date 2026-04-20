@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3143263577821240436}
   - component: {fileID: 8167072042706889524}
   - component: {fileID: 2127578427587847351}
-  - component: {fileID: 846529955695365589}
+  - component: {fileID: 1365776003391903817}
   m_Layer: 0
   m_Name: Fat Zombie
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1707748205904424496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.263105, y: -4.151491, z: 0}
+  m_LocalPosition: {x: -54.98, y: -4.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -105,14 +105,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4b6e0b2c8f14e2fad8c9b31a6f74c51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FatZombieBounceTrigger
-  bounceImpulse: 8
+  bounceImpulse: 15
   playerTag: Player
   clampFallingSpeed: 1
   minimumFallingSpeed: 0.1
   raycastDistance: 0.75
   topStompWindow: 0.9
---- !u!61 &846529955695365589
-BoxCollider2D:
+--- !u!70 &1365776003391903817
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -145,15 +145,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.1277771, y: 1.2934676}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 5.9375, y: 4}
-    newSize: {x: 5.9375, y: 4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.7878418, y: 2.2261527}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.14827469, y: 1.3490971}
+  m_Size: {x: 4.0959992, y: 2.1093118}
+  m_Direction: 1

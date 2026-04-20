@@ -1,0 +1,23 @@
+# ninja log v5
+4	1459	7982602834430000	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1bec84ef1073534b
+67	206	7982602821908482	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	2bc1bf5d5820ec79
+13	1110	7982602830926592	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d872cf2dde196145
+207	360	7982602823344491	C:/ZOMBIE BURSA/ZombieBursa/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5k3w2u46/obj/arm64-v8a/libswappywrapper.so	922ddb4f1a5e490f
+59	1138	7982602831242204	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ae52bda85b97edf3
+34	1283	7982602832665784	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	985c38024593970
+24	1129	7982602831123236	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f492692cce02d595
+18	1178	7982602831609778	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8ea7b79005c8bdad
+50	1136	7982602831216794	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	7e636064491e2a5
+41	1371	7982602833578662	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5497be55de6ce549
+1460	1555	7982602835450436	C:/ZOMBIE BURSA/ZombieBursa/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5k3w2u46/obj/arm64-v8a/libgame.so	61db7c28ea2fce63
+97	795	7982936404834640	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	2bc1bf5d5820ec79
+795	1101	7982936407791425	C:/ZOMBIE BURSA/ZombieBursa/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5k3w2u46/obj/arm64-v8a/libswappywrapper.so	922ddb4f1a5e490f
+73	12221	7982936519066768	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ae52bda85b97edf3
+48	12230	7982936519160712	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d872cf2dde196145
+41	12246	7982936519294283	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f492692cce02d595
+89	12253	7982936519371318	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	7e636064491e2a5
+57	12304	7982936519900656	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8ea7b79005c8bdad
+65	12473	7982936521572841	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5497be55de6ce549
+28	12563	7982936522462265	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1bec84ef1073534b
+81	12761	7982936524460107	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	985c38024593970
+12761	12856	7982936525465207	C:/ZOMBIE BURSA/ZombieBursa/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5k3w2u46/obj/arm64-v8a/libgame.so	61db7c28ea2fce63

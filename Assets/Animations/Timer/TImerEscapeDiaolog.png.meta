@@ -1,0 +1,2031 @@
+fileFormatVersion: 2
+guid: 06a2ee79f0ce611438ce797c8973a73b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c9bbb334d479a4b8f36c46d578ad8a
+      internalID: -1359476757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89b106ef1a277c4090b6fa458f6ac08
+      internalID: -113704183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacf3531784344c429fdb919295d6ea1
+      internalID: 626215377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d1c1326044146408025f481baf211b
+      internalID: -167959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94209e080b243342849b1a8d9a2ae0b
+      internalID: -95186616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c5f1e8aff50ae4aa429257a3af7dda
+      internalID: 1894694532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea30f7dfa82b524bba5b19031083af2
+      internalID: 450579204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414a73a2516f17644bd21b26e58c45d2
+      internalID: 439856907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ab32503341384a8d97ffa55c52fa7
+      internalID: 1324631792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 352
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae06d3ce0ead9449b40a5aea5d2c1c7
+      internalID: 518965923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2d2b833e6c3f4f84ee5b14bc66567
+      internalID: 376643300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4204d88422bddde44bc5065c21d2011d
+      internalID: 834860880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ef5208a5e1c1408163712273f7160
+      internalID: -1556629708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489869bb31434f64b8acbc297b0e4485
+      internalID: 494236167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c243cb343a1b84b99c9b9e974cf779
+      internalID: 1804855980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503d4e1754a7d1d44adfb0c4b2159ca8
+      internalID: 448094459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ec4d83c26c884195264d049e5d0ea
+      internalID: 2075973149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69606d436d8462e4db2b2876bfb67af5
+      internalID: 2067378282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527d1473bd51b5b4cab9df3d616eda91
+      internalID: 950943824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 308
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4e779b7f72bf4ab28d6805e733073
+      internalID: -981056262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb1cfa7c61f914d99e6a623c2e99f6
+      internalID: 192114302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa783108ff195489f610f29ca11db7
+      internalID: 242611593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8262e60b6cf7ade45827b5ac4aaf6a15
+      internalID: 524015219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167dae0a89129ba4c9bf89a16cd06c12
+      internalID: -1039530801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7d00ffbd97e934caa6a344c5361d27
+      internalID: 1244959964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a387fcd9d829f91428262c914218bfd9
+      internalID: 1443185945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aa4dc56696e7c43ae20052375e1e90
+      internalID: -871559284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b892d7fd47819ea4487fa2bad9a83e54
+      internalID: 2015014242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc59468c1ef3c894387435d512a082f8
+      internalID: 1487371507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 264
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ab7c1a85795f4990625fd91d9e570
+      internalID: 1133622835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d3fbaae04f1514b8a93e6f0f213b99
+      internalID: 250203306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e643a06eda7c5d40a8e554bde8c85fd
+      internalID: -482816544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_32
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aa84a52ff988e4fa827a91f0cb1d1f
+      internalID: -881481784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2769cb9022eef49adb656dac5ab2f7
+      internalID: -1806730776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb1eb4f3a9b644e80e4781eb93708b
+      internalID: 341981148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e093c80373be4941aa3ad10e1b9374c
+      internalID: -1670834203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0ef6753e78fbd47893b74273f157ff
+      internalID: 956817681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_37
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6112e7d2a282b2b48bcbbfeff828ddc2
+      internalID: 929395939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a20c61335489f478d58a7815c302d2
+      internalID: -787400692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_39
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 220
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e20c8a243b599749a80023569f40c03
+      internalID: -891185623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e610f5bea5e6f49a80f07c3c682d7a
+      internalID: 1310364722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_41
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e0edb18eb136845982da9a25d3458f
+      internalID: 144387704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_42
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270c8576c3e980409bd516e8fc4950c
+      internalID: -2080700980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5cdd66c00af1f4a82852cc731e8cc9
+      internalID: -1409570085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_44
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1809bd403f55de34daaf0c3fce6de583
+      internalID: -1231549789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_45
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15030395502b2545b63a42c4af6b994
+      internalID: 1355051058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_46
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7275f9f109c51469153825fe5a4393
+      internalID: 556725494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_47
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb2f3213fe0b542a293c28d15347cc
+      internalID: -1349975312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_48
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3186efe0154dd24c8bfe8c1903d22ac
+      internalID: 608717868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_49
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 176
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f8e93426e20d4aab76c8b638a7a3f
+      internalID: 769372076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036f33a72ae4e654a8fc76c01b0d0665
+      internalID: -1886810863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690296415f7331046aa7a917243f0271
+      internalID: 706304119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a98e5cb519eb40a856364bbdeb497
+      internalID: 1678278176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_53
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f1b4ea640c1b24ca94f266422985db
+      internalID: -606094115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_54
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9adb0eaeae5ced4bb3d8506f30d2c47
+      internalID: -334004172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_55
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f172648e74e69d4282259d2a076b122
+      internalID: -1965999472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_56
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06edbc7252f64c949bb65adf2ecae9f4
+      internalID: 244016954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3c5deb49a99a343aa990c6c9cedaf4
+      internalID: -1778650985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_58
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589fe01018e37e94a96b3cc679008eed
+      internalID: -202121467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_59
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 132
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37003996d4ea64c90c4486c5036e42
+      internalID: 1028032297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e326d60c08efce4aa11595a6d465dd5
+      internalID: -251534667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_61
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1531a5b4a08bd4b45be17b7211aa482b
+      internalID: 1777223447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_62
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447123fae283e684caf677843695f8ed
+      internalID: 1809101125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_63
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415556640c44f394582a60b3b845edcd
+      internalID: 1458387126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_64
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f77fda9f831f26478dcc041200ffc2c
+      internalID: 1908634314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_65
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c76c29502fd7c248b686ab1c7ea7122
+      internalID: -1944103804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_66
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d6b17a467f9154ea1e840450349516
+      internalID: 781836969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_67
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1962b1b4f31cc4e80f1f436f419ee3
+      internalID: 1545800915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324736a724312cf4dbd269329301dba8
+      internalID: -1960456843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 88
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c96dd49c9e8c04697a234ecc176b19
+      internalID: 557348388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6cb88080dae004fb33d3d10364810a
+      internalID: 699408572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c12fcbec6e836b418a4ec01f3efeb7d
+      internalID: -336930941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_72
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb526188ac863c849b1a11a0a9be0f3e
+      internalID: 522472219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_73
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136709490e144742b5126f6f837d79e
+      internalID: 1936509196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2394f77dbdbc82c4e8414bfa277ccfdc
+      internalID: 1104825349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_75
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d2793c169c9004395015c1bdc00a54
+      internalID: -1125341846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_76
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e0c9673fd472041aaf771335982cf3
+      internalID: -1426181589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_77
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05c8510c41de4b4fab232f9e0c75d3b
+      internalID: 1717084663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_78
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea005de4850f2d44cb930e4e8776ab9e
+      internalID: 1221727610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_79
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 44
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b925f35818ee614ea8b5b235b46ea93
+      internalID: 42928316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fa4048dfafbc0469c7de67a9c824bb
+      internalID: -441661805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TImerEscapeDiaolog_81
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2e370254dbb894686d6b106f7e878a
+      internalID: 1502234719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":58.0,"y":44.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      TImerEscapeDiaolog_0: -1359476757
+      TImerEscapeDiaolog_1: -113704183
+      TImerEscapeDiaolog_10: 376643300
+      TImerEscapeDiaolog_11: 834860880
+      TImerEscapeDiaolog_12: -1556629708
+      TImerEscapeDiaolog_13: 494236167
+      TImerEscapeDiaolog_14: 1804855980
+      TImerEscapeDiaolog_15: 448094459
+      TImerEscapeDiaolog_16: 2075973149
+      TImerEscapeDiaolog_17: 2067378282
+      TImerEscapeDiaolog_18: 950943824
+      TImerEscapeDiaolog_19: -981056262
+      TImerEscapeDiaolog_2: 626215377
+      TImerEscapeDiaolog_20: 192114302
+      TImerEscapeDiaolog_21: 242611593
+      TImerEscapeDiaolog_22: 524015219
+      TImerEscapeDiaolog_23: -1039530801
+      TImerEscapeDiaolog_24: 1244959964
+      TImerEscapeDiaolog_25: 1443185945
+      TImerEscapeDiaolog_26: -871559284
+      TImerEscapeDiaolog_27: 2015014242
+      TImerEscapeDiaolog_28: 1487371507
+      TImerEscapeDiaolog_29: 1133622835
+      TImerEscapeDiaolog_3: -167959
+      TImerEscapeDiaolog_30: 250203306
+      TImerEscapeDiaolog_31: -482816544
+      TImerEscapeDiaolog_32: -881481784
+      TImerEscapeDiaolog_33: -1806730776
+      TImerEscapeDiaolog_34: 341981148
+      TImerEscapeDiaolog_35: -1670834203
+      TImerEscapeDiaolog_36: 956817681
+      TImerEscapeDiaolog_37: 929395939
+      TImerEscapeDiaolog_38: -787400692
+      TImerEscapeDiaolog_39: -891185623
+      TImerEscapeDiaolog_4: -95186616
+      TImerEscapeDiaolog_40: 1310364722
+      TImerEscapeDiaolog_41: 144387704
+      TImerEscapeDiaolog_42: -2080700980
+      TImerEscapeDiaolog_43: -1409570085
+      TImerEscapeDiaolog_44: -1231549789
+      TImerEscapeDiaolog_45: 1355051058
+      TImerEscapeDiaolog_46: 556725494
+      TImerEscapeDiaolog_47: -1349975312
+      TImerEscapeDiaolog_48: 608717868
+      TImerEscapeDiaolog_49: 769372076
+      TImerEscapeDiaolog_5: 1894694532
+      TImerEscapeDiaolog_50: -1886810863
+      TImerEscapeDiaolog_51: 706304119
+      TImerEscapeDiaolog_52: 1678278176
+      TImerEscapeDiaolog_53: -606094115
+      TImerEscapeDiaolog_54: -334004172
+      TImerEscapeDiaolog_55: -1965999472
+      TImerEscapeDiaolog_56: 244016954
+      TImerEscapeDiaolog_57: -1778650985
+      TImerEscapeDiaolog_58: -202121467
+      TImerEscapeDiaolog_59: 1028032297
+      TImerEscapeDiaolog_6: 450579204
+      TImerEscapeDiaolog_60: -251534667
+      TImerEscapeDiaolog_61: 1777223447
+      TImerEscapeDiaolog_62: 1809101125
+      TImerEscapeDiaolog_63: 1458387126
+      TImerEscapeDiaolog_64: 1908634314
+      TImerEscapeDiaolog_65: -1944103804
+      TImerEscapeDiaolog_66: 781836969
+      TImerEscapeDiaolog_67: 1545800915
+      TImerEscapeDiaolog_68: -1960456843
+      TImerEscapeDiaolog_69: 557348388
+      TImerEscapeDiaolog_7: 439856907
+      TImerEscapeDiaolog_70: 699408572
+      TImerEscapeDiaolog_71: -336930941
+      TImerEscapeDiaolog_72: 522472219
+      TImerEscapeDiaolog_73: 1936509196
+      TImerEscapeDiaolog_74: 1104825349
+      TImerEscapeDiaolog_75: -1125341846
+      TImerEscapeDiaolog_76: -1426181589
+      TImerEscapeDiaolog_77: 1717084663
+      TImerEscapeDiaolog_78: 1221727610
+      TImerEscapeDiaolog_79: 42928316
+      TImerEscapeDiaolog_8: 1324631792
+      TImerEscapeDiaolog_80: -441661805
+      TImerEscapeDiaolog_81: 1502234719
+      TImerEscapeDiaolog_9: 518965923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

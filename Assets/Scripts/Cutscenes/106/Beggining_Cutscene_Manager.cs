@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
+using UnityEngine.UI;   
 
 public class Beggining_Cutscene_Manager : MonoBehaviour
 {
+    public GameObject doorInteract;
     public PlayerInput playerInput; 
     public Collider2D playerCollider;
     public Rigidbody2D playerRigidBody;
@@ -12,12 +14,15 @@ public class Beggining_Cutscene_Manager : MonoBehaviour
     public PlayableDirector SleepCutscene;
     public GameObject wakeUpButton;
     public PlayerInputHandler playerInputHandler;
-    public Timer_Cutscene_Manager timerCutscene;
+    public GameObject BurpBar;
+    public Image FadeScreen;
 
 
     private void Start()
     {
+        SetDoorInteractOff();
         SetPlayerOff();
+        SetBurpBarOff();
     }
     public void OnEnable()
     {
@@ -34,6 +39,14 @@ public class Beggining_Cutscene_Manager : MonoBehaviour
         wakeUpButton.SetActive(false);
         SleepCutscene.Stop();
         WakeUpCutscene.Play();
+    }
+    public void SetDoorInteractOn()
+    {
+        doorInteract.SetActive(true);
+    }
+    public void SetDoorInteractOff()
+    {
+        doorInteract.SetActive(false);
     }
     public void SetPlayerOff()
     {
@@ -60,8 +73,18 @@ public class Beggining_Cutscene_Manager : MonoBehaviour
         {
             inputManager.ChangeInputMap(PlayerInputManager.InputType.Player);
         }
-        timerCutscene.enabled = true;
         this.enabled = false;
     }
-
+    public void SetBurpBarOff()
+    {
+        BurpBar.SetActive(false);
+    }
+    public void SetBurpBarOn()
+    {
+        BurpBar.SetActive(true);
+    }
+    public void setFadeScreenOff()
+    {
+        FadeScreen.gameObject.SetActive(false);
+    }
 }

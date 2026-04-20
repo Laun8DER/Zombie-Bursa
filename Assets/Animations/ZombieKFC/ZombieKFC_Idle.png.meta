@@ -115,18 +115,18 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a4fa31e333a2f4bb694f8c901e54ad
-      internalID: -185625811
+      spriteID: f328c4bcaffb76446a095b2537e0ed75
+      internalID: 948131269
       vertices: []
       indices: 
       edges: []
@@ -135,20 +135,20 @@ TextureImporter:
       name: ZombieKFC_Idle_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 80
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a59eeea94eb0d743a57eaecae057960
-      internalID: 247919941
+      spriteID: f535dda62987aaf49a2dbeb13337fee8
+      internalID: 2024144122
       vertices: []
       indices: 
       edges: []
@@ -157,20 +157,20 @@ TextureImporter:
       name: ZombieKFC_Idle_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 160
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67958e4e734da614bae8572c459a57b4
-      internalID: 873290706
+      spriteID: b892326ae7e6c5143b0de556645b9400
+      internalID: 2008830789
       vertices: []
       indices: 
       edges: []
@@ -179,20 +179,20 @@ TextureImporter:
       name: ZombieKFC_Idle_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 240
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5ce74cf73dc2764797aaaaac21389f4
-      internalID: 878363659
+      spriteID: 7c6b4a3417e989547ae8efa037df324f
+      internalID: -420495284
       vertices: []
       indices: 
       edges: []
@@ -201,20 +201,20 @@ TextureImporter:
       name: ZombieKFC_Idle_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2c1aa6a6ea28047862a88f9244f4fe
-      internalID: -1091513847
+      spriteID: e4fe4249e91f0d04497fa7b13d3b5ee3
+      internalID: -1383301831
       vertices: []
       indices: 
       edges: []
@@ -223,20 +223,20 @@ TextureImporter:
       name: ZombieKFC_Idle_5
       rect:
         serializedVersion: 2
-        x: 500
+        x: 400
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8b207205d771c34f8da0f1120640330
-      internalID: 1217821541
+      spriteID: bbdeebae93de0724086341e202b08a04
+      internalID: -592709562
       vertices: []
       indices: 
       edges: []
@@ -245,20 +245,20 @@ TextureImporter:
       name: ZombieKFC_Idle_6
       rect:
         serializedVersion: 2
-        x: 600
+        x: 480
         y: 0
-        width: 100
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e796b4cfe7fd71c48bec4ca2e6bbb792
-      internalID: -279951378
+      spriteID: 4cb5c8c4b0a8f844b8691520e8109c84
+      internalID: 1220159560
       vertices: []
       indices: 
       edges: []
@@ -277,15 +277,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.03999999910593033},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ZombieKFC_Idle_0: -185625811
-      ZombieKFC_Idle_1: 247919941
-      ZombieKFC_Idle_2: 873290706
-      ZombieKFC_Idle_3: 878363659
-      ZombieKFC_Idle_4: -1091513847
-      ZombieKFC_Idle_5: 1217821541
-      ZombieKFC_Idle_6: -279951378
+      ZombieKFC_Idle_0: 948131269
+      ZombieKFC_Idle_1: 2024144122
+      ZombieKFC_Idle_2: 2008830789
+      ZombieKFC_Idle_3: -420495284
+      ZombieKFC_Idle_4: -1383301831
+      ZombieKFC_Idle_5: -592709562
+      ZombieKFC_Idle_6: 1220159560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

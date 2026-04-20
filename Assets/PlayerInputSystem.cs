@@ -209,17 +209,6 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""93a31940-b9f0-4431-89d0-40cf17079b92"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Burp"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""ec6b73c3-5914-45c5-80e7-dc28ac96d9db"",
                     ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
@@ -242,6 +231,17 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""556f7419-0d72-4118-b045-37a16a817c8a"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Burp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""2beef587-d969-4c1b-9fc8-a874fa0ad146"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
@@ -255,6 +255,17 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""e41ce98d-eb12-414b-8e66-1d78360a4489"",
                     ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7e5e56ab-ef39-4a5b-8c7b-78b7b838dc75"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -342,8 +353,8 @@ public partial class @PlayerInputSystem: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""74ec71e0-9355-4a9c-8d62-fe92d875eefc"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""id"": ""8e1051fe-3b12-4c69-9d46-d5fb1829e172"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

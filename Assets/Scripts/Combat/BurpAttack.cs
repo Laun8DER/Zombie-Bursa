@@ -212,24 +212,21 @@ public class BurpAttack : MonoBehaviour
 
     private bool TryDamageEnemy(Collider2D enemyCollider)
     {
-        if (enemyCollider == null)
+        if (enemyCollider == null) return false;
+
+        if (enemyCollider.TryGetComponent(out Health health))
         {
-            return false;
+            health.TakeDamage(burpDamage);
+            return true;
         }
 
-        Health targetHealth = enemyCollider.GetComponent<Health>();
-        if (targetHealth == null)
+        if (enemyCollider.TryGetComponent(out Cutscene_Zombie_Health cutscene))
         {
-            targetHealth = enemyCollider.GetComponentInParent<Health>();
+            cutscene.TakeDamage(burpDamage);
+            return true;
         }
 
-        if (targetHealth == null)
-        {
-            return false;
-        }
-
-        targetHealth.TakeDamage(burpDamage);
-        return true;
+        return false;
     }
 
     private void RefreshStaminaBar()

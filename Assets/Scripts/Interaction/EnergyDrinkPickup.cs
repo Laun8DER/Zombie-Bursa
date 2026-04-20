@@ -1,8 +1,7 @@
 using UnityEngine;
-
-[DisallowMultipleComponent]
 public class EnergyDrinkPickup : MonoBehaviour
 {
+
     [Header("Pickup")]
     public string playerTag = "Player";
     public float staminaRestoreAmount = 25f;
@@ -35,5 +34,6 @@ public class EnergyDrinkPickup : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 }

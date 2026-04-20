@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Health : MonoBehaviour
 {
@@ -12,8 +13,6 @@ public class Health : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip explosionClip;
 
-    [Header("Death Effects")]
-    public GameObject deathEffect;
 
     [Header("Loot Drop")]
     public GameObject[] energyDrinkPrefabs;
@@ -50,10 +49,6 @@ public class Health : MonoBehaviour
         isDead = true;
         Debug.Log($"{gameObject.name} погиб!");
 
-        if (deathEffect != null)
-        {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
-        }
         animator.SetTrigger("IsDead");
         audioSource.PlayOneShot(explosionClip);
     }
