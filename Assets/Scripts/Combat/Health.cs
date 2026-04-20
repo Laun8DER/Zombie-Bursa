@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip explosionClip;
 
+    public event System.Action OnTakeDamage;
 
     [Header("Loot Drop")]
     public GameObject[] energyDrinkPrefabs;
@@ -33,6 +34,7 @@ public class Health : MonoBehaviour
     {
         if (isDead) return;
         currentHealth -= damage;
+        OnTakeDamage?.Invoke();
 
         //Debug.Log($"{gameObject.name} получил {damage} урона. Текущее ХП: {currentHealth}");
 

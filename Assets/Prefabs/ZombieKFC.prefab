@@ -248,7 +248,8 @@ MonoBehaviour:
   animator: {fileID: 6768430155305013871}
   health: {fileID: 5096590424575198338}
   moveSpeed: 3
-  detectionRadius: 8
+  detectionRadius: 10
+  backDetectionRadius: 4
   retargetInterval: 0.15
   attackRadius: 1.5
   attackCooldown: 1
@@ -279,7 +280,6 @@ MonoBehaviour:
   animator: {fileID: 6768430155305013871}
   audioSource: {fileID: 1655745682410688952}
   explosionClip: {fileID: 8300000, guid: ff77877bf8802e14780ea5d58195d3ed, type: 3}
-  deathEffect: {fileID: 0}
   energyDrinkPrefabs:
   - {fileID: 4032482852319126218, guid: 31b9261eb49c3973fa97786449fbbb11, type: 3}
   energyDrinkSpawnChances:

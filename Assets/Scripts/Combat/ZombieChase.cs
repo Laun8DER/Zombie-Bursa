@@ -74,6 +74,36 @@ public class ZombieChase : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        if (health != null)
+        {
+            health.OnTakeDamage += HandleTakeDamage;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (health != null)
+        {
+            health.OnTakeDamage -= HandleTakeDamage;
+        }
+    }
+
+    private void HandleTakeDamage()
+    {
+        if (currentTarget != null) return; // Уже преследуем
+
+        GameObject player = GameObject.FindGameObjectWithTag(playerTag);
+        if (player != null)
+        {
+            currentTarget = player.transform;
+            currentTargetCollider = player.GetComponent<Collider2D>();
+            currentTargetHealth = player.GetComponentInParent<PlayerHealth>();
+            LogDebug($"Получил урон! Перехожу в режим преследования игрока: {player.name}.");
+        }
+    }
+
     private void FixedUpdate()
     {
         if (health != null && health.IsDead)

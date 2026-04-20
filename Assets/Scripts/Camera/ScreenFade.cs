@@ -24,6 +24,11 @@ public class ScreenFade : MonoBehaviour
     private GameObject fadeCanvasObject;
     private bool isTransitioning;
 
+    [Header("Custom Animation")]
+    public Animator animator;
+    public string fadeOutState = "FadeOut";
+    public string fadeInState = "FadeIn";
+
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void Bootstrap()
     {
@@ -68,7 +73,15 @@ public class ScreenFade : MonoBehaviour
         fadeCanvasObject.SetActive(true);
         fadeCanvasGroup.blocksRaycasts = true;
 
-        yield return Fade(1f, fadeOutDuration);
+        if (animator != null)
+        {
+            animator.Play(fadeOutState);
+            yield return new WaitForSecondsRealtime(fadeOutDuration);
+        }
+        else
+        {
+            yield return Fade(1f, fadeOutDuration);
+        }
 
         midpointAction?.Invoke();
 
@@ -77,7 +90,15 @@ public class ScreenFade : MonoBehaviour
             yield return new WaitForSecondsRealtime(holdDuration);
         }
 
-        yield return Fade(0f, fadeInDuration);
+        if (animator != null)
+        {
+            animator.Play(fadeInState);
+            yield return new WaitForSecondsRealtime(fadeInDuration);
+        }
+        else
+        {
+            yield return Fade(0f, fadeInDuration);
+        }
 
         fadeCanvasGroup.blocksRaycasts = false;
         fadeCanvasObject.SetActive(false);
