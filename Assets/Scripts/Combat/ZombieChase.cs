@@ -13,6 +13,7 @@ public class ZombieChase : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 3f;
     public float detectionRadius = 8f;
+    public float backDetectionRadius = 2f;
     public float retargetInterval = 0.15f;
 
     [Header("Attack")]
@@ -161,26 +162,42 @@ public class ZombieChase : MonoBehaviour
             ClearTarget();
         }
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, targetLayers);
-        float closestDistance = float.MaxValue;
+        Vector2 origin = bodyCollider != null ? (Vector2)bodyCollider.bounds.center : (Vector2)transform.position;
+        Vector2 facing = GetFacingDirection();
 
-        foreach (Collider2D hit in hits)
+        // Проверка спереди
+        if (TryFindTargetInDirection(origin, facing, detectionRadius)) return;
+
+        // Проверка сзади (короткий рейкаст)
+        TryFindTargetInDirection(origin, -facing, backDetectionRadius);
+    }
+
+    private bool TryFindTargetInDirection(Vector2 origin, Vector2 direction, float range)
+    {
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, direction, range, targetLayers);
+        foreach (var hit in hits)
         {
-            if (hit == null || !hit.CompareTag(playerTag))
+            if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.CompareTag(playerTag))
             {
-                continue;
-            }
-
-            float distance = Vector2.Distance(transform.position, hit.transform.position);
-            if (distance < closestDistance)
-            {
-                closestDistance = distance;
                 currentTarget = hit.transform;
-                currentTargetCollider = hit;
-                currentTargetHealth = hit.GetComponentInParent<PlayerHealth>();
-                LogDebug($"Обнаружил цель {currentTarget.name} на дистанции {distance:F2}.");
+                currentTargetCollider = hit.collider;
+                currentTargetHealth = hit.collider.GetComponentInParent<PlayerHealth>();
+                LogDebug($"Обнаружил цель {currentTarget.name} через рейкаст (направление: {direction}).");
+                return true;
             }
         }
+        return false;
+    }
+
+    private Vector2 GetFacingDirection()
+    {
+        if (spriteRenderer == null) return Vector2.right;
+
+        // Логика из UpdateFacing:
+        // horizontalDistance > 0 (направо) -> shouldFlip = true (если invertFacing = false)
+        // Значит flipX = true обычно означает "направо" для этого спрайта.
+        bool facingRight = invertFacing ? !spriteRenderer.flipX : spriteRenderer.flipX;
+        return facingRight ? Vector2.right : Vector2.left;
     }
 
     private void TryDealDamage()
@@ -292,8 +309,14 @@ public class ZombieChase : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        Vector2 origin = bodyCollider != null ? (Vector2)bodyCollider.bounds.center : (Vector2)transform.position;
+        Vector2 facing = GetFacingDirection();
+
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+        Gizmos.DrawLine(origin, origin + facing * detectionRadius);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(origin, origin - facing * backDetectionRadius);
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRadius);
