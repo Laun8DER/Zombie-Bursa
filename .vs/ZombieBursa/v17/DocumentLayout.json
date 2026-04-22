@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\ZOMBIE BURSA\\ZombieBursa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\burpattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|c:\\zombie bursa\\zombiebursa\\assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\screenfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C1A4AB-C72B-C5B3-A1CE-F4C92BF9D606}|Assembly-CSharp.csproj|C:\\ZOMBIE BURSA\\ZombieBursa\\assets\\scripts\\interaction\\doorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,17 +154,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ScreenFade.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenFade.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\ScreenFade.cs",
               "ToolTip": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Camera\\ScreenFade.cs",
               "RelativeToolTip": "Assets\\Scripts\\Camera\\ScreenFade.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAADwv5QAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T08:10:56.478Z",
               "EditorCaption": ""
@@ -207,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BurpAttack.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Combat\\BurpAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\BurpAttack.cs",
@@ -244,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerInputHandler.cs",
               "DocumentMoniker": "C:\\ZOMBIE BURSA\\ZombieBursa\\Assets\\Scripts\\Player\\PlayerInputHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
@@ -252,8 +252,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInputHandler.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T08:54:41.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T08:54:41.471Z"
             },
             {
               "$type": "Document",
